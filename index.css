@@ -1,0 +1,12 @@
+#wireframes ul li {
+    list-style-type: none;
+}
+
+#wireframes ul li a {
+    color: blue;
+    font-size: 20px;
+}
+
+#wireframes ul li a:visited {
+    color: green;
+}
