@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    font-size: 30px;
+    text-align: center;
 }
 
 h1{
@@ -15,15 +17,14 @@ p{
 }
 
 form{
+    padding: 40px;
     background-image: url('./images/starters.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 50%;
     font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    text-shadow: 4px 4px 5px red;
+    color: white;
+    text-shadow: 4px 4px 5px black;
 }
 
 /* styles desktop*/
@@ -44,11 +45,11 @@ form{
         background-image: url('./images/starters.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: center;
+        background-position: 50% 50%;
         font-weight: bolder;
-        font-size: 60px;
+        font-size: 58px;
         text-align: center;
-        color: black;
-        text-shadow: 4px 4px 5px red;
+        color: white;
+        text-shadow: 4px 4px 5px black;
     }
 }

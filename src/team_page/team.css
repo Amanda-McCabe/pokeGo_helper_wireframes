@@ -56,9 +56,28 @@ body{
     width: 200px;
 }
 
+footer{
+    color: rgb(238, 226, 56);
+    background-color: rgb(88, 88, 179);
+    text-align: center; 
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 /*styles desktop*/
 @media all and (min-width: 600px){
     body{
         text-align: center;
+    }
+
+    footer{
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 }
